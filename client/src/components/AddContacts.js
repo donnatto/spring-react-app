@@ -28,7 +28,7 @@ export default class AddContacts extends Component {
           <div className='row'>
             <div className='input-field col s6'>
               <input
-                placeholder='Placeholder'
+                autoFocus
                 ref='firstName'
                 type='text'
                 className='validate'
@@ -48,7 +48,7 @@ export default class AddContacts extends Component {
           </div>
           <div className='row'>
             <button
-              className='waves-effect waves-light byn'
+              className='waves-effect waves-light btn'
               type='submit'
               name='action'
             >
